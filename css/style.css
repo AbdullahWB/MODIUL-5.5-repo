@@ -1,0 +1,708 @@
+/* =============
+common css start
+============= */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* img {
+    vertical-align: middle;
+} */
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* ================
+common css ends
+================= */
+
+
+/* ===============
+banner part start
+=============== */
+
+.banner-bg {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.295) 46%, rgba(255, 255, 255, 0) 100%), url('../images/banner-bg.png') no-repeat center / cover;
+}
+
+
+/* linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%) */
+
+.banner-bg .banner {
+    text-align: center;
+}
+
+.banner-bg .banner .banner-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 174px;
+    padding: 175px 235px 0 235px;
+}
+
+.banner-bg .banner .banner-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px 300px 30px 300px;
+}
+
+.banner-bg .banner .button {
+    padding-bottom: 175px;
+}
+
+.banner-bg .banner .button .btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 16px;
+    background: #FF5959;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.banner-bg .banner .button .btn:hover {
+    color: #FF5959;
+    background: transparent;
+    border: 1px solid #FF5959;
+}
+
+
+/* ================
+banner part ends
+================= */
+
+
+/* ================
+donate today part
+================= */
+
+.today-bg {
+    margin-top: 130px;
+}
+
+
+/* .today-bg .today {} */
+
+.today-bg .today .today-text-h {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+
+.today-bg .today .today-text-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #707070;
+    padding: 20px 375px 0px 375px;
+}
+
+.today-bg .today ul {
+    display: flex;
+    width: 100%;
+    height: 123px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.today-bg .today ul li {
+    width: 136px;
+    height: 123px;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 22px;
+    background: #FAFAFA;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    box-sizing: border-box;
+}
+
+.today-bg .today ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    text-transform: lowercase;
+    line-height: 123px;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.today-bg .today ul li:hover {
+    background: #FFEEEE;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.today-bg .today ul li:hover a {
+    color: #FF5959;
+}
+
+.today-bg .today input {
+    box-sizing: border-box;
+    width: 850px;
+    margin-left: 295px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    /* text-align: center; */
+    color: #B3B3B3;
+    border: none;
+    border-bottom: 1px solid #dadada;
+    margin-top: 30px;
+}
+
+.today-bg .today .button {
+    padding-bottom: 175px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.today-bg .today .button .btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 16px;
+    background: #FF5959;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.today-bg .today .button .btn:hover {
+    color: #FF5959;
+    background: #FFFFFF;
+    border: 1px solid #FF5959;
+}
+
+
+/* ================
+donate today part
+================= */
+
+
+/* ================
+donate plane start
+================= */
+
+
+/* .plane-bg {}
+
+.plane-bg .plane {} */
+
+.plane-bg .plane .plane-hade {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    padding-bottom: 20px;
+}
+
+.plane-bg .plane .plane-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #707070;
+    padding: 0 382px;
+}
+
+.plane-bg .plane .plane-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.plane-bg .plane .plane-item .item-bg {
+    width: 360px;
+    height: 352px;
+    background: #FFEEEE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.plane-bg .plane .plane-item .item-bg:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.plane-bg .plane .plane-item .item-bg:first-child {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plane-bg .plane .plane-item .item-bg:last-child {
+    background: #FFF4D6;
+}
+
+.plane-bg .plane .plane-item .item-bg img {
+    padding-top: 63px;
+    padding-left: 23px;
+}
+
+.plane-bg .plane .plane-item .item-bg .i-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #121212;
+    padding-left: 23px;
+    padding-top: 31px;
+}
+
+.plane-bg .plane .plane-item .item-bg .i-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    padding: 31px 43px 54px 23px;
+}
+
+
+/* ================
+donate plane ends
+================= */
+
+
+/* =================
+donate people start
+================== */
+
+.people-bg {
+    margin-top: 130px;
+}
+
+.people-bg .people {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people-bg .people .people-text {
+    margin-top: 50px;
+}
+
+.people-bg .people .people-text .people-hade {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    padding-right: 410px;
+    padding-bottom: 20px;
+}
+
+.people-bg .people .people-text .people-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #707070;
+    padding: 0 597px 40px 0px;
+}
+
+
+/* .people-bg .people .people-text .button {} */
+
+.people-bg .people .people-text .button .btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 16px;
+    background: #FF5959;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.people-bg .people .people-text .button .btn:hover {
+    color: #FF5959;
+    background: #FFFFFF;
+    border: 1px solid #FF5959;
+}
+
+.people-bg .people .people-img {
+    width: 456px;
+    height: 477px;
+}
+
+
+/* =================
+donate people ends
+================== */
+
+
+/* =================
+contribute to donate
+================== */
+
+.contribute-bg {
+    margin-top: 130px;
+}
+
+.contribute-bg .contribute {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contribute-bg .contribute .contribute-img {
+    width: 456px;
+    height: 477px;
+}
+
+.contribute-bg .contribute .contribute-text {
+    margin-top: 50px;
+    text-align: left;
+    width: 500px;
+    height: 374px;
+}
+
+.contribute-bg .contribute .contribute-text .contribute-hade {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    /* padding-left: 410px; */
+    padding-bottom: 20px;
+}
+
+.contribute-bg .contribute .contribute-text .contribute-para {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #707070;
+    /* padding: 0 0px 40px 597px; */
+    padding-bottom: 20px;
+}
+
+.contribute-bg .contribute .contribute-text .button {
+    padding-top: 30px;
+}
+
+.contribute-bg .contribute .contribute-text .button .btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 16px;
+    background: #FF5959;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.contribute-bg .contribute .contribute-text .button .btn:hover {
+    color: #FF5959;
+    background: #FFFFFF;
+    border: 1px solid #FF5959;
+}
+
+
+/* =================
+contribute to donate
+================== */
+
+
+/* =================
+contact us start
+================== */
+
+.contact-bg {
+    margin-top: 130px;
+}
+
+
+/* .contact-bg .contact {} */
+
+.contact-bg .contact .contact-text {
+    text-align: center;
+    width: 100%;
+    height: 130px;
+}
+
+.contact-bg .contact .contact-text .contact-head {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    padding-bottom: 30px;
+}
+
+.contact-bg .contact .contact-text .contact-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #707070;
+    padding: 0 400px 0px 400px;
+    /* margin-bottom: 50px; */
+}
+
+.contact-bg .contact .contact-input {
+    width: 100%;
+    height: 200px;
+    background: #FFF4D6;
+    margin-top: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+/* .contact-bg .contact hr {
+    width: 100%;
+    height: 60px;
+} */
+
+.contact-bg .contact .contact-input form {
+    display: flex;
+    justify-content: center;
+    padding-top: 85px;
+}
+
+.contact-bg .contact .contact-input form .input-group>input {
+    display: block;
+    padding: 14px 218px 14px 17px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    text-align: center;
+    color: #AA9F9F;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    border: none;
+    background: #D9D9D9;
+    text-align: left;
+}
+
+.contact-bg .contact .contact-input form span {
+    display: block;
+    padding: 14px 42px 10px 42px;
+    font-family: 'Inter';
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /*identicaltoboxheight,or125%*/
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF5959;
+    outline: none;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+}
+
+.contact-bg .contact .contact-input form span:hover {
+    background: transparent;
+    border: 1px solid #FF5959;
+    box-sizing: border-box;
+    color: #FF5959;
+}
+
+
+/* =================
+contact us ends
+================== */
+
+
+/* =================
+footer part start
+================== */
+
+.footer-bg {
+    background: #0B0D17;
+    width: 100%;
+    height: 177px;
+    margin-top: 130px;
+}
+
+.footer-bg .footer {
+    text-align: center;
+}
+
+.footer-bg .footer .footer-hade {
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height, or 122% */
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    padding-top: 43px;
+}
+
+.footer-bg .footer .footer-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding-top: 24px;
+}
+
+
+/* =================
+footer part ends
+================== */
